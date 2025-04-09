@@ -32,6 +32,7 @@ function ImgRenderDiv() {
     return (
         <ImgDiv>
             <StyleImg src={lucasImg} />
+            <h1>Lucas Pulgaci</h1>
         </ImgDiv>
     );
 }

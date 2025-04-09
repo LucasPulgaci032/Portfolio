@@ -13,10 +13,9 @@ const SobreDiv = styled.div`
   justify-content: center;
   text-align: center;
   padding: 18px;
-  margin-top: 5cm;
+ 
   border-radius: 10px;
-  background: linear-gradient(to right, #064e3b, #10b981);
-  border: solid white 2px;
+  border: solid purple 2px;
 
 
  `;

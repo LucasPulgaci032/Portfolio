@@ -11,8 +11,6 @@ import { ScrollTrigger } from "gsap/all";
 const HabilityDiv = styled.div`
   width: 50%;
   height: auto;
-  border: solid white 2px;
-  background: linear-gradient(to right, #064e3b, #10b981);
   border-radius: 10px;
   margin-bottom: 50px;
   transform: translateX(700px);

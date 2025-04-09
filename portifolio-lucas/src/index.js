@@ -22,7 +22,9 @@ const GlobalStyle = createGlobalStyle`
 
    }
   
-  
+   div{
+     border: ${props => props.borda ||  'purple'}
+   }
   
 
    h1{

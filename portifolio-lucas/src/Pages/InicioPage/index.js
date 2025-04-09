@@ -1,4 +1,5 @@
 import ImgRenderDiv from "./ComponentsInicio/ImgDiv";
+import Hello from "./ComponentsInicio/Hello";
 import Contato from "./ComponentsInicio/ContactDiv";
 import styled from "styled-components"
 
@@ -8,6 +9,11 @@ const StartContainer = styled.div`
     gap: 30px;
    
 `
+const StartDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    
+`
 
 
 function StartPage(){
@@ -16,8 +22,12 @@ function StartPage(){
 
     return(
         <StartContainer>
-            <ImgRenderDiv/>
-            <Contato/>
+                <ImgRenderDiv/>
+            <StartDiv>
+                <Hello/>
+                <Contato/>
+            </StartDiv>
+            
         </StartContainer>
         
     )

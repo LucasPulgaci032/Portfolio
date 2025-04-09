@@ -26,7 +26,8 @@ const SpinDiv = keyframes`
 const ContatoContainer = styled.div`
   width: 50%;
   height: 50%;
-  
+  display:flex;
+  flex-direction:row;
   border-radius: 100px;
   padding: 20px;
   color: white;

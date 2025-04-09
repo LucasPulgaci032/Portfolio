@@ -1,16 +1,15 @@
 
 import Sobre from './sobre'
 import Hability from './tecnicas'
-import Contato from '../InicioPage/ComponentsInicio/ContactDiv'
 import styled from 'styled-components'
 
 
 const HomeContainer = styled.div`
     display:flex;
+    flex-direction: row;
     width: auto;
     heigth: auto;
-    margin-left:auto;
-    margin-right:auto
+    
 
     
 `
@@ -18,17 +17,16 @@ const HomeContainer = styled.div`
 const HomeDiv = styled.div`
  
   display: flex;
-  flex-direction: column; 
+  flex-direction: row; 
   align-items: center;
   justify-content: center;
   height: 100vh; 
   gap: 10px;
-  
+  margin-left:auto;
+  margin-right:auto
+
 `
-const TecnicasContactDiv = styled.div`
-   display:flex;
-   gap: 16px;
-`
+
 
 
 function SobrePage(){
@@ -38,10 +36,8 @@ function SobrePage(){
        <HomeDiv>
         
         <Sobre/>
-        <TecnicasContactDiv>
         <Hability/>
-        <Contato/>
-        </TecnicasContactDiv>
+
         </HomeDiv>
         </HomeContainer>
     )
