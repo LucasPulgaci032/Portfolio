@@ -1,0 +1,1 @@
+[{"nome":"Programação Front end Awari","imagem":"/portfolio-lucas/src/Images/AwariCerification.png"},{"nome":"Modelagem de banco de dados com SQL da alura","imagem":"abc"},{"nome":"Modelagem de banco de dados com SQL da alura2","imagem":"abc"}]
