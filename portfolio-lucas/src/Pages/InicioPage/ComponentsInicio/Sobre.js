@@ -27,8 +27,7 @@ const bordaNeon = keyframes`
 
 
 export const SobreDiv = styled.div`
-  background: linear-gradient(135deg, #3f0d77, #8a2be2);
-  padding: 40px;
+ 
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
   color: #ffffff;
@@ -36,12 +35,11 @@ export const SobreDiv = styled.div`
   position: relative;
   overflow: hidden;
   z-index: 1;
-
+  padding: 10px;
   max-width: 960px;
   margin: 40px auto;
   width: 90vw;
-  max-height: 90vh;
-  overflow-y: auto;
+
 
   h1, h2, p {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.6),
@@ -54,8 +52,8 @@ export const SobreDiv = styled.div`
     position: absolute;
     top: -2px; left: -2px; right: -2px; bottom: -2px;
     border-radius: 22px;
-    background: linear-gradient(45deg, #a64bf4, #7a00cc, #d580ff, #8a2be2);
     z-index: -1;
+    padding: 10px;
     filter: blur(10px);
     background-size: 300% 300%;
     animation: ${bordaNeon} 5s linear infinite;

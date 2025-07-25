@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom'
 const FormsContainer = styled.div`
   width: 70vw;
   height: 70vh;
-  
   margin-top: 150px ;
   border-radius: 10px;
   background: linear-gradient(135deg, #9b30ff, #4b0082);
@@ -26,6 +25,12 @@ const FormsArea = styled.form`
   gap: 16px;
 
 `;
+
+const TitleSend = styled.h1`
+  width: 50vw;
+  font-size: 50px;
+  color: #4B0082;
+`
 
 const Input = styled.input`
   width: 80%;
@@ -83,6 +88,9 @@ function Forms() {
   return (
     <div>
     <FormsContainer>
+       <TitleSend>
+         Entre em contato:
+       </TitleSend>
       <FormsArea onSubmit={sendEmail}>
         <Input 
           className="input"

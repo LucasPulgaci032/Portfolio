@@ -16,24 +16,41 @@ import {
 } from "./descriptionProject";
 
 const Projects = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 70px;
-  width: 80%;
-  height: auto;
-  align-items: center;
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  @media(max-width: 768px){
+    flex-direction: column;
+   
+  }
 `;
 
+
+
 const ProjectCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
   width: 80%;
+  height: 100%; 
   border: 2px solid purple;
   border-radius: 8px;
   padding: 16px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow:  10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
   position: relative;
-  
+
+  &.open {
+    width: 40%;
+  }
 `;
+
 
 const ClosedProjectImg = styled.img`
   border-radius: 20px;
@@ -57,6 +74,7 @@ const ProjectHeader = styled.div`
 
 const ImagesWrapper = styled.div`
   display: flex;
+  flex-direction:column;
   gap: 16px;
   justify-content: center;
   margin-top: 16px;
@@ -82,6 +100,7 @@ const Image = styled.img`
   &:hover {
     transform: scale(1.05);
   }
+   
 `;
 
 const TecnologiesUsedInProject = styled.ul`

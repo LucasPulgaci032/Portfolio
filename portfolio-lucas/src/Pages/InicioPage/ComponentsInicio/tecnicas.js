@@ -5,6 +5,7 @@ import { FaPython } from "react-icons/fa6";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { IoMdGitBranch } from "react-icons/io";
 import { SiExpress, SiStyledcomponents} from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi"
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
@@ -15,8 +16,9 @@ const habilidades = [
   {name: "HTML", logo: <FaHtml5 />, id:1},
   {name: "CSS", logo: <FaCss3Alt />, id:2},
   { name: "JavaScript", logo: <IoLogoJavascript />, id: 3 },
-  { name: "Python", logo: <FaPython />, id: 4 },
-  { name: "SQL", logo: <AiOutlineConsoleSql />, id: 5 },
+  {name: "Typescript", logo: <BiLogoTypescript/>, id: 4},
+  { name: "Python", logo: <FaPython />, id: 5 },
+  { name: "SQL", logo: <AiOutlineConsoleSql />, id: 6 },
    
 ];
 

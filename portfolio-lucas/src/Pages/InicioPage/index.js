@@ -70,6 +70,7 @@ import {
           <Sobre />
           <StyleSectionName ref={el => sectionRefs.current[0] = el}>
             Contato
+            <hr style={{ backgroundColor: 'white', width:'80vw', alignItems:'right',height: '2px', border: 'none' }} ref={el => sectionRefs.current[0] = el}/>
           </StyleSectionName>
           <Contato />
           <Hability />
@@ -78,6 +79,7 @@ import {
         <TitleProjects>
           <StyleSectionName ref={el => sectionRefs.current[1] = el}>
             PROJETOS
+            <hr style={{ backgroundColor: 'white', width:'80vw', alignItems:'right',height: '2px', border: 'none' }} ref={el => sectionRefs.current[1] = el}/>
           </StyleSectionName>
         </TitleProjects>
   
@@ -85,6 +87,7 @@ import {
   
         <StyleSectionName ref={el => sectionRefs.current[2] = el}>
           CERTIFICAÇÕES E FORMAÇÕES
+          <hr style={{ backgroundColor: 'white', width:'80vw', alignItems:'right',height: '2px', border: 'none' }} ref={el => sectionRefs.current[2] = el}/>
         </StyleSectionName>
   
         <Certifications />

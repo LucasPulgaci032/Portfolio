@@ -38,7 +38,7 @@ export const StyleImg = styled.img`
   height: auto;
   border-radius: 20px;
   border: 4px solid transparent;
-  background: linear-gradient(135deg, #9b30ff, #4b0082);
+  background: linear-gradient(45deg, #9b30ff, #4b0082);
   background-origin: border-box;
   padding: 4px;
   animation: ${purpleGlow} 2s infinite ease-in-out, ${swirlInFwd} 2s ease-in-out forwards;

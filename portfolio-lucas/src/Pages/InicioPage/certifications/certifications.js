@@ -26,6 +26,7 @@ const CertificationsCard = styled.div`
    padding: 4px;
    background: linear-gradient(135deg, #9b30ff, #4b0082);
    border-radius: 20px;
+   
 `
 
 const ContainerImg = styled.div`
@@ -38,6 +39,7 @@ const ImageCertification = styled.img`
   width: 50%;
   height: auto;
   padding: 10px;
+  border-radius: 10px;
 `
 const SingleImageCertification = styled.img`
   width: 80%;

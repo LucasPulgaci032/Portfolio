@@ -5,4 +5,7 @@ export const StyleSectionName = styled.h1`
         transform:translatex(1000px);
         font-size: 50px;
         font-family: 'Inter', sans-serif;
+                @media(max-width:768px){
+                        font-size: 30px;
+                }
 `
