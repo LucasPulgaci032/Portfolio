@@ -5,7 +5,10 @@ import {
   cursoFS2,
   cursoFS3,
   aluraSQL,
-  aluraPython
+  aluraPython,
+  qrCodePythonIniciante,
+  qrCodeFormacaoFullStack,
+  qrCodeAwari
 }from '../../../Images/exports'
 
 const CertificationsContainer = styled.div`
@@ -13,45 +16,77 @@ const CertificationsContainer = styled.div`
   flex-direction: column;
   gap: 10px;
   margin: 70px;
-  width: 80%;
+  width: 60%;
   height: auto;
   align-items: center;
     
     `
 const CertificationsCard = styled.div`
-   display: flex;
-   flex-direction: row;
-   width: 80%;
-   height: auto;
-   padding: 4px;
-   background: linear-gradient(135deg, #9b30ff, #4b0082);
-   border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  padding: 4px;
+  background: linear-gradient(135deg, #9b30ff, #4b0082);
+  border-radius: 20px;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 95%;
+  }
    
 `
 
 const ContainerImg = styled.div`
-    display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%; 
 `
 
 const ImageCertification = styled.img`
   width: 50%;
-  height: auto;
+  min-width: 150px; 
+  height: 50%;
   padding: 10px;
   border-radius: 10px;
+
+  @media (max-width: 768px){
+    width: 80%;
+    min-width: 120px;
+    height: auto;
+  }
 `
+
 const SingleImageCertification = styled.img`
   width: 80%;
+  min-width: 150px;
   height: auto;
   padding: 14px;
+
+  @media (max-width: 768px){
+    width: 100%;
+    min-width: 120px;
+    height: auto;
+  }
+`
+
+const QrCode = styled.img `
+   width: 70%;
+  height: auto;
+  padding: 14px;
+       @media (max-width: 768px){
+      width:100%;
+      height:auto;
+    }
 `
 const certifications = [
-    {nome:"Programação Front end Awari",imagem: [certificacaoAwari]},
-    {nome: "Formação Full Stack React e Node js", imagem: [cursoFS1, cursoFS2, cursoFS3]
+    {nome:"Programação Front end Awari",imagem: [certificacaoAwari] ,link:qrCodeAwari},
+    {nome: "Formação Full Stack React e Node js", imagem: [cursoFS1, cursoFS2, cursoFS3], link: qrCodeFormacaoFullStack
     },
-    {nome:"Modelagem de banco de dados com SQL da alura",imagem:[aluraSQL]},{
-     nome:"Iniciando em Python", imagem: [aluraPython]
+    {nome:"Modelagem de banco de dados com SQL da alura",imagem:[aluraSQL]},
+    {nome:"Iniciando em Python", imagem: [aluraPython], link: qrCodePythonIniciante
     }
 ]
 
@@ -66,7 +101,9 @@ function Certifications(){
           <ImageCertification key={index} src={item} />
         )): <SingleImageCertification src={certificado.imagem[0]}/>
         }
+       {/*  <QrCode src ={/*certificado.link}/> */}
       </ContainerImg>
+     
     </CertificationsCard>
   ))}
 </CertificationsContainer>

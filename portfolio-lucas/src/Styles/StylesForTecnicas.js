@@ -13,6 +13,7 @@ export const Container = styled.div`
   align-items: center;
   text-align: center;
   
+  
   @media(max-width: 1760px){
        width: 80%;
        height: auto;
@@ -66,8 +67,7 @@ export const StaticList = styled.ul`
   color: purple;
   border-radius: 10px;
   font-size: 1.8rem;
-  margin-left:auto;
-  mrgin-right:auto;
+  margin: 0 auto;
 `;
 
 export const MudaEstadoButton = styled.button`

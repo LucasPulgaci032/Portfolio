@@ -16,7 +16,7 @@ import {styled, keyframes} from 'styled-components'
 export const ContatoContainer = styled.div`
    width: 100%;
   max-width: 600px;
-  min-height: 300px;
+  min-height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;

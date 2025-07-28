@@ -74,7 +74,7 @@ const ProjectHeader = styled.div`
 
 const ImagesWrapper = styled.div`
   display: flex;
-  flex-direction:column;
+  flex-direction:row;
   gap: 16px;
   justify-content: center;
   margin-top: 16px;
@@ -118,6 +118,9 @@ const TecnologiesUsedInProject = styled.ul`
     margin-bottom: 6px;
     font-size: 16px;
     font-weight: 500;
+      @media (max-width: 768px){
+        font-size: 12px;
+      }
   
   }
 
@@ -145,29 +148,17 @@ const ProjetosObjct = [
     link: "https://github.com/LucasPulgaci032/Alura-Books",
     tecnologias: ["React", "Styled-components", "React-Router"],
   },
+  
   {
     id: 2,
-    name: "Clone do Instagram",
-    description: CloneInstagram2,
-    imageOne: "",
-    imageTwo: "",
-    tecnologias: ["React"],
-  },
-  {
-    id: 3,
     name: "Aplicativo de academia com HTML, CSS e JavaScript puro",
     imageOne: BlueLionImg1,
     imageTwo: BlueLionImg2,
     description: AcademiaBlueLion,
     link: "https://github.com/LucasPulgaci032/LucasPulgaci032.github.io",
     tecnologias: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: 4,
-    name: "Aplicativo de academia com HTML, CSS e JavaScript puro",
-    description: "...",
-    tecnologias: ["HTML", "CSS", "JavaScript"],
-  },
+  }
+  
 ];
 
 function ProjectPage() {

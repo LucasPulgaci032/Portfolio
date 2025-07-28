@@ -22,6 +22,7 @@ export const StyleText = styled.div`
     h1{
       
       text-align: left;
+      color:#4B0082;
     }
     p{
       text-align: left;
@@ -32,7 +33,7 @@ export const StyleText = styled.div`
 `
 export const LinkStyle = styled.a`
       font-size: 12px;
-       color: black;
+       color: white;
        &: hover{
          color:white;
        }

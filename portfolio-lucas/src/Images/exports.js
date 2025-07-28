@@ -5,6 +5,9 @@ import cursoFS3 from './curso3formacaofullsatck.jpg';
 import aluraSQL from './aluraSQL_page-0001.jpg';
 import aluraPython from './ALuraPython_page-0001.jpg'
 
+import qrCodePythonIniciante from './qrCodePythonIniciante.jpg'
+import qrCodeFormacaoFullStack from './qrCodeFormacaoFullStackAlura.jpg'
+import qrCodeAwari from './qrCodeAwari.jpg'
 
 export {
   certificacaoAwari,
@@ -12,5 +15,8 @@ export {
   cursoFS2,
   cursoFS3,
   aluraSQL,
-  aluraPython
+  aluraPython,
+  qrCodePythonIniciante,
+  qrCodeFormacaoFullStack,
+  qrCodeAwari
 };

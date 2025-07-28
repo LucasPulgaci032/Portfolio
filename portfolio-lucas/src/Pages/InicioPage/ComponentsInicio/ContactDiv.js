@@ -5,6 +5,8 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import { Link } from 'react-router-dom';
 import { MdEmail } from "react-icons/md";
+
+
 gsap.registerPlugin(ScrollTrigger);
 
 const redes = [
