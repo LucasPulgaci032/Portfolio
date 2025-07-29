@@ -73,7 +73,7 @@ const SingleImageCertification = styled.img`
 `
 
 const QrCode = styled.img `
-   width: 70%;
+  max-width: 50px;
   height: auto;
   padding: 14px;
        @media (max-width: 768px){

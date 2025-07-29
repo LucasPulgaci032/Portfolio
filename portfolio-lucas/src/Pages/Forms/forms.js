@@ -11,45 +11,102 @@ const FormsContainer = styled.div`
   margin-top: 150px ;
   border-radius: 10px;
   background: linear-gradient(135deg, #9b30ff, #4b0082);
-  padding: 4px;
+  padding: 20px;
   margin-left: auto;
   margin-right: auto;
+  justify-content:center;
   
 `;
 
 const FormsArea = styled.form`
-  margin-top: 100px;
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  color: 
 
 `;
 
 const TitleSend = styled.h1`
-  width: 50vw;
-  font-size: 50px;
+ 
+  font-size: 30px;
   color: #4B0082;
 `
 
 const Input = styled.input`
   width: 80%;
+  padding: 10px;
+  border: 2px solid #a259ff;
   border-radius: 10px;
+  background-color: #f3e8ff;
+  color: #4a0072;
+  font-size: 16px;
   z-index: 1;
-`
+  outline: none;
+  transition: 0.3s ease;
+
+  &:focus {
+    border-color: #7e22ce;
+    box-shadow: 0 0 8px rgba(126, 34, 206, 0.4);
+  }
+`;
+
 const TextArea = styled.textarea`
-   border-radius: 5px;
-   z-index: 1;
-`
-const Button = styled.input`
- 
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #c084fc;
+  background-color: #faf5ff;
+  color: #4b0082;
+  font-size: 16px;
   z-index: 1;
-`
+  resize: vertical;
+  outline: none;
+  transition: 0.3s ease;
+
+  &:focus {
+    border-color: #9333ea;
+    box-shadow: 0 0 8px rgba(147, 51, 234, 0.4);
+  }
+`;
+
+const Button = styled.input`
+  padding: 10px 20px;
+  background-color: #8b5cf6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #7c3aed;
+  }
+`;
+
 const ButtonBack = styled.button`
   position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 8px 16px;
+  background-color: #c4b5fd ;
+  color: #5b21b6;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
   z-index: 1;
-  
-`
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: #d8b4fe;
+    color: #3b0764;
+    border-color: #a78bfa;
+  }
+`;
+
 
 function Forms() {
   const [name, setName] = useState('')

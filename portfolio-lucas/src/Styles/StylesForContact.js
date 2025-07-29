@@ -26,7 +26,7 @@ export const ContatoContainer = styled.div`
   background-color: #1e1e2f;
   margin: 0 auto;
   box-sizing: border-box;
-
+  z-index: 1
   h1, p, img, ul, li {
     max-width: 100%;
     box-sizing: border-box;

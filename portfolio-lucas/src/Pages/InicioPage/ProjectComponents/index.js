@@ -116,6 +116,8 @@ const TecnologiesUsedInProject = styled.ul`
   transition: opacity 0.3s ease;
   justify-content: space-evenly;
   border-radius: 10px;
+  overflow-wrap: break-word; 
+  word-break: break-word;    
   & > li {
     margin-bottom: 6px;
     font-size: 16px;

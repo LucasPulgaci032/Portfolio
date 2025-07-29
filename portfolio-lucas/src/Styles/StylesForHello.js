@@ -30,5 +30,6 @@ export const Inicialization = styled.div`
 
   @media (max-width: 768px) {
     font-size: clamp(1rem, 4vw, 1.5rem);
+    padding: 10px;
   }
 `;
