@@ -30,8 +30,8 @@ function Contato() {
         start: "top 85%",
         end: "top 40%",
         scrub: false,
-        toggleActions: "play none none none",
-        markers: false 
+        toggleActions: "play none none none"
+       
       }
     });
 
