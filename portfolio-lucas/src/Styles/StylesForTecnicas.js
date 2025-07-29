@@ -64,7 +64,7 @@ export const Item = styled.li`
 export const StaticList = styled.ul`
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 80%;
   align-items: center;
   gap: 25px;
   padding: 25px;
