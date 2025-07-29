@@ -3,7 +3,7 @@ import {
     Hello,
     Contato,
     Sobre,
-    Hability
+    Hability,
   } from './ComponentsInicio/exports';
   import ProjectPage from "./ProjectComponents/index";
   import Certifications from "./certifications/certifications";
@@ -20,6 +20,7 @@ import {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+   
   `;
   
   const HelloDiv = styled.div`
@@ -72,8 +73,8 @@ import {
             Contato
             <hr style={{ backgroundColor: 'white', width:'80vw', alignItems:'right',height: '2px', border: 'none' }} ref={el => sectionRefs.current[0] = el}/>
           </StyleSectionName>
-          <Contato />
-          <Hability />
+           <Contato />
+           <Hability />
         </StartDiv>
   
         <TitleProjects>

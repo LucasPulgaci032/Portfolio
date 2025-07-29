@@ -36,8 +36,12 @@ export const SobreDiv = styled.div`
 
   h1 {
    font-size: 50px;
-   text-shadow: 0 0 8px rgba(255, 255, 255, 0.6),
-                 0 0 15px rgba(33, 15, 51, 0.8);
+   text-shadow: 1px 1px 1px white,
+        0 0 12px rgba(255, 255, 255, 0.8),
+                 0 0 25px rgba(138, 43, 226, 1);
+                @media(max-width:768px){
+                        font-size: 35px;
+                }
   }
    p {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.6),

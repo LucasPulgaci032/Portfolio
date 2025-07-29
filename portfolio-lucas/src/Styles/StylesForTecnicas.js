@@ -31,6 +31,12 @@ export const Title = styled.h2`
   color: #9b30ff;
   margin-bottom: 20px;
   text-align:center;
+  text-shadow: 1px 1px 1px white,
+        0 0 12px rgba(255, 255, 255, 0.8),
+                 0 0 25px rgba(138, 43, 226, 1);
+                @media(max-width:768px){
+                        font-size: 35px;
+                }
 `;
 
 export const CarrouselWrapper = styled.div`

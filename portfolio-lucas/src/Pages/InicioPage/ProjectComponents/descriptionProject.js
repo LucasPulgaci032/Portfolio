@@ -1,5 +1,8 @@
-export const BibliotecaVirtual = `Desenvolvi uma biblioteca simples e funcional, na qual a barra de pesquisa permite encontrar livros ao verificar se o termo digitado está contido em seus nomes. Dessa forma, é possível digitar apenas uma parte do título para localizar a obra desejada. O sistema então exibe a imagem do livro juntamente com seu nome completo.
-Nesse projeto, aprimorei minhas habilidades e afinidade com Styled-Components e JavaScript, utilizando o método map para renderizar componentes de forma eficiente e dinâmica. Clique na imagem para melhor visualização! `
+export const BibliotecaVirtual = `Desenvolvi uma biblioteca digital simples e funcional, com uma barra de pesquisa que permite localizar livros ao verificar se o termo digitado está contido em seus títulos. Assim, é possível encontrar uma obra digitando apenas parte do nome. O sistema exibe a imagem do livro junto com seu título completo.
+Nesse projeto, aprofundei meus conhecimentos em Styled-Components e JavaScript, utilizando o método map para renderizar os componentes de forma eficiente e dinâmica.
+No backend, construí uma API com Express para implementar um sistema de favoritos. Ao clicar em um livro, uma requisição POST adiciona o item a um arquivo .json. Também é possível visualizar os livros favoritos com uma requisição GET, e removê-los com uma DELETE. Para testar as rotas da API, utilizei o Postman.
+ Clique na imagem para visualização em tamanho maior!
+ `
 
 export const CloneInstagram2 = `Este projeto é um clone fiel da interface do Instagram, reproduzindo com precisão todos os detalhes, incluindo o padrão de cores e os tamanhos das divs. Além disso, o código consome a API do GitHub, permitindo a visualização de usuários reais.`
 

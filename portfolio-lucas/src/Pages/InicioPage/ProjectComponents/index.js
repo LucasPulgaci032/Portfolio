@@ -106,10 +106,12 @@ const Image = styled.img`
 const TecnologiesUsedInProject = styled.ul`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap; 
   background-color: purple;
   margin-top: 12px;
   list-style: none;
   padding: 20px;
+  gap: 16px;
   color: white;
   transition: opacity 0.3s ease;
   justify-content: space-evenly;
@@ -146,7 +148,7 @@ const ProjetosObjct = [
     imageOne: AluraBooks,
     imageTwo: MidAlura2,
     link: "https://github.com/LucasPulgaci032/Alura-Books",
-    tecnologias: ["React", "Styled-components", "React-Router"],
+    tecnologias: ["React", "Styled-components", "React-Router", "Axios","Express"],
   },
   
   {

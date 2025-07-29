@@ -101,7 +101,7 @@ function Certifications(){
           <ImageCertification key={index} src={item} />
         )): <SingleImageCertification src={certificado.imagem[0]}/>
         }
-       {/*  <QrCode src ={/*certificado.link}/> */}
+        <QrCode src ={certificado.link}/> 
       </ContainerImg>
      
     </CertificationsCard>

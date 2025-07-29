@@ -4,7 +4,7 @@ import { LuFigma } from "react-icons/lu";
 import { FaPython } from "react-icons/fa6";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { IoMdGitBranch } from "react-icons/io";
-import { SiExpress, SiStyledcomponents} from "react-icons/si";
+import { SiExpress, SiStyledcomponents, SiPostman} from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi"
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
@@ -29,7 +29,8 @@ const ferramentas = [
   { name: "Figma", logo: <LuFigma />, id: 4},
   {name: "Express", logo:<SiExpress/>,id: 5},
   {name: "Tailwindcss",logo:<RiTailwindCssFill/>, id: 6},
-  {name: "Styled-components", logo: <SiStyledcomponents/> , id: 7}
+  {name: "Styled-components", logo: <SiStyledcomponents/> , id: 7},
+  {name: "Postman", logo: <SiPostman/>, id:8}
   
 ];
 
