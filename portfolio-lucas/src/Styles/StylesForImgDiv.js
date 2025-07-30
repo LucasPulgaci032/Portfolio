@@ -31,6 +31,10 @@ export const ImgDiv = styled.div`
   justify-content: center;
   align-items: center;
   animation: ${swirlInFwd} 2s ease-in-out forwards;
+    @media (max-width:768px){
+      max-width: 40px;
+      max-height: 40px;
+    }
 `;
 
 export const StyleImg = styled.img`
