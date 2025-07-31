@@ -7,6 +7,7 @@ import {
   aluraSQL,
   aluraPython,
   qrCodePythonIniciante,
+  diplomaAnhembi,
   qrCodeFormacaoFullStack,
   qrCodeAwari
 }from '../../../Images/exports'
@@ -82,6 +83,8 @@ const QrCode = styled.img `
     }
 `
 const certifications = [
+    {nome: "Diploma Análise e desenvolvimento de sistemas Anhembi Morumbi", imagem: [diplomaAnhembi]
+    },
     {nome:"Programação Front end Awari",imagem: [certificacaoAwari] ,link:qrCodeAwari},
     {nome: "Formação Full Stack React e Node js", imagem: [cursoFS1, cursoFS2, cursoFS3], link: qrCodeFormacaoFullStack
     },

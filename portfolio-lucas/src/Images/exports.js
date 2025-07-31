@@ -8,6 +8,7 @@ import aluraPython from './ALuraPython_page-0001.jpg'
 import qrCodePythonIniciante from './qrCodePythonIniciante.jpg'
 import qrCodeFormacaoFullStack from './qrCodeFormacaoFullStackAlura.jpg'
 import qrCodeAwari from './qrCodeAwari.jpg'
+import diplomaAnhembi from './diplomaAnhembi.jpg'
 
 export {
   certificacaoAwari,
@@ -16,6 +17,7 @@ export {
   cursoFS3,
   aluraSQL,
   aluraPython,
+  diplomaAnhembi,
   qrCodePythonIniciante,
   qrCodeFormacaoFullStack,
   qrCodeAwari

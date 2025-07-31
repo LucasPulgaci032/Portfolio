@@ -1,5 +1,4 @@
-import {styled, keyframes} from 'styled-components'
-
+import { styled, keyframes } from 'styled-components';
 
 const swirlInFwd = keyframes`
   0% {
@@ -31,10 +30,19 @@ export const ImgDiv = styled.div`
   justify-content: center;
   align-items: center;
   animation: ${swirlInFwd} 2s ease-in-out forwards;
-    @media (max-width:768px){
-      max-width: 40px;
-      max-height: 40px;
-    }
+
+  @media (max-width: 768px) {
+    margin-top: 60px;       
+    margin-left: 20px;      
+    margin-right: 20px;     
+    max-width: 100%;        
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 `;
 
 export const StyleImg = styled.img`
@@ -46,7 +54,12 @@ export const StyleImg = styled.img`
   background-origin: border-box;
   padding: 4px;
   animation: ${purpleGlow} 2s infinite ease-in-out, ${swirlInFwd} 2s ease-in-out forwards;
-      @media(max-width: 768px){
-         width: 150px;
-      }
+
+  @media (max-width: 768px) {
+    width: 150px;
+  }
+
+  @media (max-width: 480px) {
+    width: 100px;
+  }
 `;
