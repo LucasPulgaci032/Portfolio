@@ -20,7 +20,6 @@ export const DivContainer = styled.div`
 
 export const StyleText = styled.div`
     h1{
-      
       text-align: left;
       color:#4B0082;
     }
