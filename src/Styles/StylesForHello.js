@@ -35,6 +35,7 @@ export const Inicialization = styled.div`
 export const Title = styled.h1`
   font-weight: bold;
   text-shadow: 0 0 0.1px #9b30ff, 0 0 1px #8a2be2, 0 0 15px #7b68ee;
+  color: white;
   animation: ${EntranceWords} 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 
   font-size: clamp(1.2rem, 2.5vw, 2rem);
