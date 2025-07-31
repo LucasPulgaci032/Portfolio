@@ -15,6 +15,8 @@ import {
 const CertificationsContainer = styled.div`
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;       
+  gap: 1rem;    
   gap: 10px;
   margin: 70px;
   width: 60%;
@@ -26,17 +28,29 @@ const CertificationsCard = styled.div`
   display: flex;
   flex-direction: row;
   height: auto;
-  padding: 4px;
+  padding: 1rem;
   background: linear-gradient(135deg, #9b30ff, #4b0082);
   border-radius: 20px;
   overflow: hidden;
+  align-items: center;
+  gap: 1rem;
+
+  h1 {
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
+    color: #5c2a9d;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    word-break: break-word;
+    max-width: 100%;
+  }
 
   @media (max-width: 768px) {
     flex-direction: column;
     width: 95%;
   }
-   
 `
+
 
 const ContainerImg = styled.div`
   display: flex;
