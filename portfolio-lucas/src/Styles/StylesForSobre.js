@@ -47,6 +47,9 @@ export const SobreDiv = styled.div`
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.6),
                  0 0 15px rgba(33, 15, 51, 0.8);
     animation: ${brilhoPulse} 2s infinite alternate;
+       @media(max-width:768px){
+                        font-size: 15px;
+                }
   }
 
   &::before {
