@@ -12,16 +12,17 @@ const swirlInFwd = keyframes`
 `;
 
 const purpleGlow = keyframes`
-   0% {
-    box-shadow: 0 0 8px #c836ff, 0 0 15px #c836ff;
+  0% {
+    box-shadow: 0 0 5px #9b30ff, 0 0 10px #9b30ff;
   }
   50% {
-    box-shadow: 0 0 20px #d580ff, 0 0 30px #d580ff;
+    box-shadow: 0 0 15px #b266ff, 0 0 25px #b266ff;
   }
   100% {
-    box-shadow: 0 0 8px #c836ff, 0 0 15px #c836ff;
+    box-shadow: 0 0 5px #9b30ff, 0 0 10px #9b30ff;
   }
 `;
+
 export const ImgDiv = styled.div`
   margin-top: 120px;
   margin-left: 100px;

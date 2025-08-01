@@ -22,21 +22,19 @@ export const Inicialization = styled.div`
   width: 100%;
   max-width: 600px;
 
-  margin: 15vh auto 0 auto;
+  margin: 15vh auto 0 auto; /* centraliza horizontalmente */
   
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 
-  box-sizing: border-box; 
+  box-sizing: border-box; /* padding incluso no width */
 
   transition: all 0.3s ease-in-out;
 `;
 
 export const Title = styled.h1`
   font-weight: bold;
- text-shadow:
-    2px 2px 4px rgba(128, 0, 128, 0.8),  
-    0 0 6px rgba(255, 255, 255, 0.5);   
+  text-shadow: 0 0 0.1px #9b30ff, 0 0 1px #8a2be2, 0 0 15px #7b68ee;
   color: white;
   animation: ${EntranceWords} 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 
