@@ -74,6 +74,7 @@ const ProjectHeader = styled.div`
 
 const ImagesWrapper = styled.div`
   display: flex;
+  aspect-ratio: 16 / 9;
   flex-direction:row;
   gap: 16px;
   justify-content: center;
@@ -90,18 +91,18 @@ const VetorSize = styled.section`
 `;
 
 const Image = styled.img`
-  width: 30vw;
+  max-width: 100%;   // Limita a imagem à largura da div
+  max-height: 400px; // Altura máxima ajustável (você pode mudar esse valor)
+  width: auto;
   height: auto;
   cursor: pointer;
   border-radius: 8px;
   transition: transform 0.3s;
-  
+  object-fit: contain; // Garante que a imagem seja redimensionada proporcionalmente
 
   &:hover {
     transform: scale(1.05);
   }
-   
-`;
 
 const TecnologiesUsedInProject = styled.ul`
   display: flex;
