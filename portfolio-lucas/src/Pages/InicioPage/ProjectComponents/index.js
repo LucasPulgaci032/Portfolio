@@ -102,7 +102,7 @@ const Image = styled.img`
 
   &:hover {
     transform: scale(1.05);
-  }
+  }`;
 
 const TecnologiesUsedInProject = styled.ul`
   display: flex;
