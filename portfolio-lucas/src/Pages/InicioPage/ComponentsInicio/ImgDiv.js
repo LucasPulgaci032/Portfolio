@@ -1,4 +1,4 @@
-import lucasImg from '../../../Images/Lucas_image-removebg-preview.png';
+import lucasImg from '../../../Images/LucasImagem.png';
 import {ImgDiv, StyleImg} from '../../../Styles/StylesForImgDiv'
 
 function ImgRenderDiv() {
