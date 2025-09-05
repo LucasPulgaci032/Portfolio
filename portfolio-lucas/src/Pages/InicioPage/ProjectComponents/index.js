@@ -75,7 +75,7 @@ const ProjectHeader = styled.div`
 const ImagesWrapper = styled.div`
   display: flex;
   aspect-ratio: 16 / 9;
-  flex-direction:row;
+  flex-direction:column;
   gap: 16px;
   justify-content: center;
   margin-top: 16px;
@@ -96,7 +96,7 @@ const Image = styled.img`
   width: auto;
   height: auto;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 20px;
   transition: transform 0.3s;
   object-fit: contain; // Garante que a imagem seja redimensionada proporcionalmente
 
@@ -141,6 +141,8 @@ const TecnologiesUsedInProject = styled.ul`
 const LetterTextSize = styled.div`
   font-size: small ;
   color: white;
+  padding:16px;
+ 
 `
 
 const ProjetosObjct = [
