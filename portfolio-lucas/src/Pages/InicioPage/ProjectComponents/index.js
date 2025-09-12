@@ -8,12 +8,13 @@ import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import styled from "styled-components";
-
+import { APINMongoExpress, APIMongoExpress2 } from "../../../Images/exports.js";
 import {
+  ApiNodeMongo,
   BibliotecaVirtual,
-  CloneInstagram2,
   AcademiaBlueLion,
 } from "./descriptionProject";
+
 
 const Projects = styled.div`
    display: flex;
@@ -148,6 +149,15 @@ const LetterTextSize = styled.div`
 const ProjetosObjct = [
   {
     id: 1,
+    name: "Api Rest com Node, MongoDB e Express",
+    description: ApiNodeMongo,
+    imageOne: APINMongoExpress,
+    imageTwo: APIMongoExpress2,
+    link: "https://github.com/LucasPulgaci032/node-mongo-api",
+    tecnologias: ['Node js', 'Express','Nodemon', 'dotenv', 'MongoDB','Mongoose','Postman']
+  },
+  {
+    id: 2,
     name: "Biblioteca Virtual da Alura",
     description: BibliotecaVirtual,
     imageOne: AluraBooks,
@@ -157,7 +167,7 @@ const ProjetosObjct = [
   },
   
   {
-    id: 2,
+    id: 3,
     name: "Aplicativo de academia com HTML, CSS e JavaScript puro",
     imageOne: BlueLionImg1,
     imageTwo: BlueLionImg2,

@@ -23,10 +23,19 @@ Utilize telas de cadastro e login para gerenciamento de acesso.
 Esse projeto foi essencial para o meu aprendizado inicial em desenvolvimento web e aprofundamento nas interações dinâmicas do JavaScript.
 
 
-
-
-
-
-
-
 `
+export const ApiNodeMongo = (
+  <>
+    API desenvolvida em <strong>Node.js</strong> com <strong>Express</strong> para gerenciamento de livros, permitindo a inserção (POST) e visualização (GET) de dados em um banco de dados <strong>MongoDB</strong>.<br /><br />
+    
+    A estrutura da API segue boas práticas de organização, com pastas separadas por responsabilidades:<br /><br />
+    
+    - <strong>Controllers:</strong> implementam a lógica das requisições HTTP;<br />
+    - <strong>Models:</strong> definem os schemas do banco de dados;<br />
+    - <strong>Routes:</strong> centralizam e organizam todas as rotas da aplicação;<br />
+    - <strong>Config:</strong> armazena variáveis de ambiente, garantindo segurança e integridade no acesso ao banco.<br /><br />
+    
+    A API oferece um <strong>CRUD completo</strong>, com métodos para criação preparados embedding (relacionamento de documentos), leitura, atualização e exclusão de livros.<br />
+    Sua arquitetura modular permite fácil expansão, possibilitando a criação de novas rotas e entidades de forma intuitiva e organizada.
+  </>
+)

@@ -34,7 +34,8 @@ export const ImgDiv = styled.div`
     margin-top: 60px;       
     margin-left: 20px;      
     margin-right: 20px;     
-    max-width: 100%;        
+    max-width: 100%;   
+    padding: 16px;     
   }
 
   @media (max-width: 480px) {

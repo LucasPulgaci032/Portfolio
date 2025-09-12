@@ -4,6 +4,8 @@ import cursoFS2 from './curso2formacaofullstack.jpg';
 import cursoFS3 from './curso3formacaofullsatck.jpg';
 import aluraSQL from './aluraSQL_page-0001.jpg';
 import aluraPython from './ALuraPython_page-0001.jpg'
+import APINMongoExpress from './API_NME.png'
+import APIMongoExpress2 from './API_Node-Mongo-Express.png'
 
 import qrCodePythonIniciante from './qrCodePythonIniciante.jpg'
 import qrCodeFormacaoFullStack from './qrCodeFormacaoFullStackAlura.jpg'
@@ -20,5 +22,7 @@ export {
   diplomaAnhembi,
   qrCodePythonIniciante,
   qrCodeFormacaoFullStack,
-  qrCodeAwari
+  qrCodeAwari,
+  APINMongoExpress,
+  APIMongoExpress2
 };

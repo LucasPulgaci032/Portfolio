@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# 🌐 Portfólio Pessoal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório do meu portfólio!  
+Este projeto foi desenvolvido para destacar minha trajetória, projetos, formações e competências na área de tecnologia.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Demonstração
+👉 [Acesse meu portfólio online](https://portfolio-lucaspulgacicampos.vercel.app/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Tecnologias Utilizadas
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Styled-components](https://img.shields.io/badge/Styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![EmailJS](https://img.shields.io/badge/EmailJS-FFB347?style=for-the-badge&logoColor=white)
+![React Icons](https://img.shields.io/badge/React%20Icons-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Estrutura do Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+/src
+ /Components
+  /componentsInicio
+ /Pages
+  /InicioPage
+  /Forms
+ /Images
+ /Particles
+ /Styles
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Sessões do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+- **Apresentação**: um breve texto convidativo para chamar o visitante a se aprofundar no portfólio.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Sobre mim**: texto descrevendo minha trajetória, experiências profissionais e formação acadêmica.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Contato**: sessão com botões que levam ao LinkedIn, GitHub e página de contato.  
+  - Desenvolvido com **React Router** para navegação interna.  
+  - Formulário integrado com **EmailJS** para enviar mensagens diretamente à minha caixa de email.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Tecnologias e Ferramentas**: lista das tecnologias e ferramentas com exposição animada.  
+  - Possui opção de "parar animação" para leitura estática.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Projetos**: cards com nome do projeto, tecnologias utilizadas e imagem do projeto.  
+  - Ao clicar no card, abre descrição detalhada, imagens adicionais e link para o repositório correspondente.  
 
-## Learn More
+- **Certificações e Formações**: sessão dedicada a diplomas e certificações.  
+  - Inclui QR Codes que levam diretamente ao documento oficial.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙️ Como Rodar Localmente
 
-### Code Splitting
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/LucasPulgaci032/Portfolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Acesse a pasta do projeto:
+    cd Portfolio
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. execute o servidor de desenvolvimento:
+    npm start
