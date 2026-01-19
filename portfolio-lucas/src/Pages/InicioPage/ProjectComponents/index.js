@@ -84,6 +84,7 @@ const ImagesWrapper = styled.div`
 const TitleProject = styled.h1`
   font-size: 36px;
   color: white;
+  max-width: 80%;
 `;
 
 const VetorSize = styled.section`
@@ -148,7 +149,7 @@ const LetterTextSize = styled.div`
 const ProjetosObjct = [
   {
     id: 1,
-    name: "SpotiFySearch",
+    name: "SpotifySearch",
     imageOne: SpotifySearch1,
     imageTwo: SpotifySearch2,
     description: SpotifySearch,
