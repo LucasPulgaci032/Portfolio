@@ -82,7 +82,7 @@ const ImagesWrapper = styled.div`
 `;
 
 const TitleProject = styled.h1`
-  font-size: 36px;
+ 
   color: white;
   max-width: 80%;
 `;
