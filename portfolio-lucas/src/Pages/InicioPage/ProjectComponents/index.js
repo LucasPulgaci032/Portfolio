@@ -82,9 +82,9 @@ const ImagesWrapper = styled.div`
 `;
 
 const TitleProject = styled.h1`
- 
   color: white;
   max-width: 80%;
+  overflow-wrap: break-word;
 `;
 
 const VetorSize = styled.section`
@@ -140,7 +140,7 @@ const TecnologiesUsedInProject = styled.ul`
 `;
 
 const LetterTextSize = styled.div`
-  font-size: small ;
+  font-size: small;
   color: white;
   padding:16px;
  
@@ -149,7 +149,7 @@ const LetterTextSize = styled.div`
 const ProjetosObjct = [
   {
     id: 1,
-    name: "SpotifySearch",
+    name: "Spotify Search",
     imageOne: SpotifySearch1,
     imageTwo: SpotifySearch2,
     description: SpotifySearch,

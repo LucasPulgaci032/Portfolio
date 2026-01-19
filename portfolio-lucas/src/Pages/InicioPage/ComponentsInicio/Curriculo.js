@@ -25,8 +25,7 @@ const DownloadButton = styled.a`
  function Curriculo() {
   return (
     <DownloadButton
-      href="/Curriculo-Lucas-Pulgaci-Augusto-de-Campos.pdf
-"
+      href="/Curriculo_Lucas_Pulgaci.pdf"
       download
     >
       <BsFileEarmarkPerson />
