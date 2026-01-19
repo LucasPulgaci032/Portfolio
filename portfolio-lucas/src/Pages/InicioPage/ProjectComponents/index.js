@@ -5,14 +5,13 @@ import BlueLionImg1 from "../../../Images/BlueLion1.png";
 import BlueLionImg2 from "../../../Images/BlueLion2.png";
 import { StyleText, LinkStyle } from "../../../Styles";
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/all";
 import styled from "styled-components";
-import { APINMongoExpress, APIMongoExpress2 } from "../../../Images/exports.js";
+import { APINMongoExpress, APIMongoExpress2, SpotifySearch1, SpotifySearch2 } from "../../../Images/exports.js";
 import {
   ApiNodeMongo,
   BibliotecaVirtual,
   AcademiaBlueLion,
+  SpotifySearch,
 } from "./descriptionProject";
 
 
@@ -149,6 +148,16 @@ const LetterTextSize = styled.div`
 const ProjetosObjct = [
   {
     id: 1,
+    name: "SpotiFySearch",
+    imageOne: SpotifySearch1,
+    imageTwo: SpotifySearch2,
+    description: SpotifySearch,
+    link: 'https://github.com/LucasPulgaci032/SpotifySearch-UI',
+    link2: 'https://github.com/LucasPulgaci032/SpotifySearch-API',
+    tecnologias: ["Java","Maven","React","Servlet","Apache Tomcat","Typescript","TailwindCSS"]
+  },
+  {
+    id: 2,
     name: "Api Rest com Node, MongoDB e Express",
     description: ApiNodeMongo,
     imageOne: APINMongoExpress,
@@ -157,7 +166,7 @@ const ProjetosObjct = [
     tecnologias: ['Node js', 'Express','Nodemon', 'dotenv', 'MongoDB','Mongoose','Postman']
   },
   {
-    id: 2,
+    id: 3,
     name: "Biblioteca Virtual da Alura",
     description: BibliotecaVirtual,
     imageOne: AluraBooks,
@@ -167,14 +176,14 @@ const ProjetosObjct = [
   },
   
   {
-    id: 3,
+    id: 4,
     name: "Aplicativo de academia com HTML, CSS e JavaScript puro",
     imageOne: BlueLionImg1,
     imageTwo: BlueLionImg2,
     description: AcademiaBlueLion,
     link: "https://github.com/LucasPulgaci032/LucasPulgaci032.github.io",
     tecnologias: ["HTML", "CSS", "JavaScript"],
-  }
+  },
   
 ];
 
@@ -244,7 +253,7 @@ function ProjectPage() {
 
               {item.link && (
                 <LetterTextSize>
-                  <strong>Repositório:</strong>{" "}
+                  <strong>Repositórios:</strong>{" "}
                   <LinkStyle
                     href={item.link}
                     target="_blank"
@@ -252,6 +261,16 @@ function ProjectPage() {
                   >
                     {item.link}
                   </LinkStyle>
+                  <br/> <br/>
+                  {item.link2 ? (
+                    <LinkStyle
+                    href={item.link2}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                      {item.link2}
+                    </LinkStyle>
+                  ) : null}
                 </LetterTextSize>
               )}
             </StyleText>

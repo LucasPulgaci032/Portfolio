@@ -39,3 +39,39 @@ export const ApiNodeMongo = (
     Sua arquitetura modular permite fácil expansão, possibilitando a criação de novas rotas e entidades de forma intuitiva e organizada.
   </>
 )
+
+export const SpotifySearch = (
+  <>
+  Aplicação de busca por artistas que consome duas APIs externas: 
+  <strong>Spotify API</strong> e <strong>Last.fm API</strong>, unificando informações musicais em uma única resposta.<br /><br />
+
+  O backend foi desenvolvido em <strong>Java</strong>, utilizando <strong>Maven</strong>, 
+  <strong>Servlets</strong> e <strong>Apache Tomcat</strong>. 
+  Os dados sensíveis de acesso às APIs são gerenciados com <strong>dotenv</strong>.<br /><br />
+
+  O fluxo da aplicação funciona da seguinte forma:<br /><br />
+
+  - O usuário insere o nome do artista;<br />
+  - O valor é encodado para URI;<br />
+  - É utilizado como query em requisições HTTP feitas com <strong>HttpClient</strong>;<br />
+  - As respostas da Spotify API e da Last.fm API são unificadas em um <strong>HashMap</strong>;<br />
+  - O resultado final é retornado em formato <strong>JSON</strong>.<br /><br />
+
+  Foi implementado um <strong>método sincronizado</strong> responsável por gerar automaticamente 
+  um novo token de acesso da Spotify API quando o token expira, garantindo segurança, 
+  consistência e funcionamento correto em cenários concorrentes.<br /><br />
+
+  O backend é empacotado em um arquivo <strong>.war</strong> e exposto para consumo externo.<br /><br />
+
+  O frontend foi desenvolvido com <strong>Vite</strong>, <strong>React + TypeScript (TSX)</strong> 
+  e estilizado com <strong>Tailwind CSS</strong>.<br /><br />
+
+  Para o gerenciamento de estado e comportamento da aplicação, foram utilizados 
+  <strong>Context API</strong> e <strong>React Hooks</strong>, responsáveis pelo controle de ciclo de vida, 
+  requisições e renderização dos dados recebidos do backend.<br /><br />
+
+  Este projeto foi essencial para o aprimoramento de conhecimentos em 
+  <strong>Java</strong>, <strong>TypeScript</strong>, integração de múltiplas APIs, 
+  autenticação com tokens e arquitetura <strong>full stack</strong>.
+</>
+)

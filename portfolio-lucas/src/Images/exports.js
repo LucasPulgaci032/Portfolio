@@ -6,6 +6,8 @@ import aluraSQL from './aluraSQL_page-0001.jpg';
 import aluraPython from './ALuraPython_page-0001.jpg'
 import APINMongoExpress from './API_NME.png'
 import APIMongoExpress2 from './API_Node-Mongo-Express.png'
+import SpotifySearch1 from './SpotifySearch1.png'
+import SpotifySearch2 from './SpotifySearch2.png'
 
 import qrCodePythonIniciante from './qrCodePythonIniciante.jpg'
 import qrCodeFormacaoFullStack from './qrCodeFormacaoFullStackAlura.jpg'
@@ -24,5 +26,7 @@ export {
   qrCodeFormacaoFullStack,
   qrCodeAwari,
   APINMongoExpress,
-  APIMongoExpress2
+  APIMongoExpress2,
+  SpotifySearch1,
+  SpotifySearch2
 };
